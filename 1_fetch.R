@@ -246,8 +246,6 @@ p1_targets_list <- list(
       mutate(COMID_refgages = as.character(nhdpv2_COMID))
   ),
   
-  # Read in csv file containing the NHDPlusv2 segment/catchment attributes that 
-  # we want to download from ScienceBase:
   tar_target(
     p1_sb_attributes_csv,
     '1_fetch/in/nhdv2_attributes_from_sciencebase.csv',

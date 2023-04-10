@@ -10,8 +10,7 @@ dir.create("1_fetch/out/mcmanamay2018", showWarnings = FALSE)
 dir.create("1_fetch/out/drb_facet", showWarnings = FALSE)
 
 source("1_fetch.R")
-source("2a_process_nhd_downscaling.R")
-source("2b_process_nhm_groundwater.R")
+source("2_process.R")
 
 # Define crs
 crs <- 5070
@@ -37,7 +36,11 @@ nhd_statsgo_parent_sbid <- '5728d6ace4b0b13d3918a992'
 ## 1_fetch/in. Clipped drb version already stored in 1_fetch/in on caldera. 
 Shangguan_dtb_cm_250m_clip_path <- '1_fetch/in/Shangguan_dtb_cm_250m_clip/w001001.adf'
 
+## vector of attributes to remove from the final static_inputs_nhm_combined dataframe because they are not ultimately used on any of the downstream model code 
+static_inputs_nhm_to_remove <- c('reach_length_km','LENGTHKM_PRMS')
+
 # Return the complete list of targets
-c(p1_targets_list, p2a_targets_list, p2b_targets_list)
+c(p1_targets_list, p2_targets_list)
+
 
 
