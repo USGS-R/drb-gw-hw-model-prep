@@ -1,7 +1,7 @@
-# drb-gw-hw-model-prep
-Code repo to prepare groundwater and headwater-related datasets for modeling river temperature in the Delaware River Basin
+# drb-gw-hw-model-prep for model archive
+Code repo to prepare groundwater and headwater-related datasets for modeling river temperature in the Delaware River Basin. This repo is built for the purpose of constructing the model archive of this work.
 
-This repo contains a targets pipeline for compiling datasets and a snakemake workflow for extracting simulated groundwater discharge from a MODFLOW groundwater model
+This repo contains a targets pipeline for compiling catchment attribute datasets. 
 
 ## Extracting the catchment / reach attributes
 The scripts to compile the catchment attributes use an R targets pipeline that is initialized with the "_targets.R" file in the main directory. The targets pipeline is divided into three phases that divide the workflow:
