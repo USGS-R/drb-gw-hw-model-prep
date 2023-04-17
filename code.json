@@ -1,0 +1,82 @@
+[
+  {
+    "name": "drb-gw-hw-model-prep",
+    "organization": "U.S. Geological Survey",
+    "description": "Code repo to prepare groundwater and headwater-related datasets for modeling river temperature in the Delaware River Basin",
+    "version": "main",
+    "status": "Development",
+    "permissions": {
+      "usageType": "openSource",
+      "licenses": [
+        {
+          "name": "Public Domain, CC0-1.0",
+          "URL": "https://github.com/USGS-R/drb-gw-hw-model-prep/raw/main/LICENSE.md"
+        }
+      ]
+    },
+    "homepageURL": "https://github.com/USGS-R/drb-gw-hw-model-prep/",
+    "downloadURL": "https://github.com/USGS-R/drb-gw-hw-model-prep/archive/refs/heads/main.zip",
+    "disclaimerURL": "https://github.com/USGS-R/drb-gw-hw-model-prep/raw/main/DISCLAIMER.md",
+    "repositoryURL": "https://github.com/USGS-R/drb-gw-hw-model-prep.git",
+    "vcs": "git",
+    "laborHours": -1,
+    "tags": [
+      "R",
+      "USGS",
+      "river",
+      "temperature",
+      "groundwater",
+      "MODFLOW"
+    ],
+    "languages": [
+      "R",
+      "Python"
+    ],
+    "contact": {
+      "name": "Lauren Koenig",
+      "email": "lkoenigsnyder@usgs.gov"
+    },
+    "date": {
+      "metadataLastUpdated": "2023-04-11"
+    }
+  },
+  {
+    "name": "drb-gw-hw-model-prep",
+    "organization": "U.S. Geological Survey",
+    "description": "Code repo to prepare groundwater-related datasets for modeling river temperature in the Delaware River Basin",
+    "version": "barclay-model-archive",
+    "status": "Release Candidate",
+    "permissions": {
+      "usageType": "openSource",
+      "licenses": [
+        {
+          "name": "Public Domain, CC0-1.0",
+          "URL": "https://github.com/USGS-R/drb-gw-hw-model-prep/raw/main/LICENSE.md"
+        }
+      ]
+    },
+    "homepageURL": "https://github.com/USGS-R/drb-gw-hw-model-prep/tree/barclay-model-archive",
+    "downloadURL": "https://github.com/USGS-R/drb-gw-hw-model-prep/archive/refs/heads/barclay-model-archive.zip",
+    "disclaimerURL": "https://github.com/USGS-R/drb-gw-hw-model-prep/raw/main/DISCLAIMER.md",
+    "repositoryURL": "https://github.com/USGS-R/drb-gw-hw-model-prep.git",
+    "vcs": "git",
+    "laborHours": -1,
+    "tags": [
+      "R",
+      "USGS",
+      "river",
+      "temperature",
+      "groundwater"
+    ],
+    "languages": [
+      "R"
+    ],
+    "contact": {
+      "name": "Margaux Sleckman",
+      "email": "msleckman@usgs.gov"
+    },
+    "date": {
+      "metadataLastUpdated": "2023-04-11"
+    }
+  }
+]
