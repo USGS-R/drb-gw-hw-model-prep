@@ -1,6 +1,11 @@
 # drb-gw-hw-model-prep
 Code repo to prepare groundwater and headwater-related datasets for modeling river temperature in the Delaware River Basin
 
+**NOTE: This repository has been moved to an internal GitLab repository. The 
+repository at https://github.com/USGS-R/drb-gw-hw-model-prep is considered archived 
+and will no longer be actively monitored or maintained.**
+
+
 This repo contains a targets pipeline for compiling datasets and a snakemake workflow for extracting simulated groundwater discharge from a MODFLOW groundwater model
 
 ## Extracting the catchment / reach attributes
